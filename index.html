@@ -1,16 +1,1154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <img  height="300px" width="200px" src="./a.jpg">
-<h1>Hello I am Zelalam Ambisa</h1>
-<h1>I am Single</h1>
-<h1>If your are girl Please Contact me</h1>
 
+    <!-- 
+    - primary meta tags
+  -->
+    <title>STES - Sky Tree Solution</title>
+    <!-- <meta name="title" content="STES - Sky Tree Solution"> -->
+    <!-- <meta name="description" content="This is a agency html template made by codewithsadee"> -->
 
-</body>
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/favicon.jpg" type="image/svg+xml">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap"
+      rel="stylesheet">
+
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+  </head>
+
+  <body>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png.png" width="209" height="52"
+            alt="dprod logo">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <p class="navbar-title">Main Menu</p>
+
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#blog" class="navbar-link" data-nav-link>Clients</a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+        <!-- Contact Us -->
+        <a href="#" class="btn btn-primary">
+          <i class="fa fa-whatsapp" style="font-size:26px">
+          </i>
+          + 977- 9843471099
+        </a>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+
+      </div>
+    </header>
+
+    <main>
+      <article>
+
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" id="home" aria-label="home">
+          <div class="container">
+
+            <div class="hero-content">
+
+              <h1 class="h1 section-title">
+                Web Design <span class="span">Graphics Design</span> Digital
+                Marketing & more
+              </h1>
+
+              <b class="section-text">
+                Best Website Design in Nepal @
+                Reasonable Price
+              </b>
+
+              <!-- <button class="btn btn-secondary">Get Started</button> -->
+
+            </div>
+
+            <figure class="hero-banner has-shape">
+
+              <img src="./assets/images/hero-banner.jpg" width="521"
+                height="675" alt="hero banner" class="w-100">
+
+              <img src="./assets/images/hero-shape-1.svg" width="106"
+                height="78" alt class="shape">
+
+            </figure>
+
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICES
+      -->
+
+        <section class="section service has-shape" id="services"
+          aria-label="service">
+          <div class="container">
+
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">
+                Our included <span class="span">service</span>.
+              </h2>
+
+              <p class="section-text">
+
+                Welcome to Sky Tree Solution, an established company since 2017.
+                Our passionate web developers excel in web design, graphics, and
+                digital marketing. We'll help your business thrive online,
+                ensuring a captivating presence that resonates with your
+                audience. Let's embark on this journey of growth and success
+                together!
+              </p>
+            </div>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="service-card">
+
+                  <figure class="card-icon">
+                    <img src="./assets/images/service-1.svg" width="60"
+                      height="60" loading="lazy" alt="service icon">
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Graphic Design</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Enhance your business's image with eye-catching designs,
+                    from logos to social media promotions, attracting a broader
+                    audience.
+                  </p>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+
+                  <figure class="card-icon">
+                    <img src="./assets/images/service-2.svg" width="60"
+                      height="60" loading="lazy" alt="service icon">
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Web Design</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Establish a strong online presence, engaging potential
+                    customers through an informative and visually appealing
+                    website.
+                  </p>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+
+                  <figure class="card-icon">
+                    <img src="./assets/images/service-3.svg" width="60"
+                      height="60" loading="lazy" alt="service icon">
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Digital Marketing</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Reach a wider market using cost-effective strategies,
+                    including SEO and promotional campaigns managed by our
+                    experts.
+                  </p>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+
+                  <figure class="card-icon">
+                    <img src="./assets/images/service-4.svg" width="60"
+                      height="60" loading="lazy" alt="service icon">
+                  </figure>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Outdoor Branding</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Stand out from the crowd with captivating designs and
+                    printed materials that connect with your target audience,
+                    elevating your brand's visibility.
+                  </p>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <img src="./assets/images/circle-shape.svg" width="158" height="158"
+              loading="lazy" alt
+              class="shape shape-1">
+
+            <img src="./assets/images/triangle-shape-1.svg" width="158"
+              height="158" loading="lazy" alt
+              class="shape shape-2">
+
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container">
+
+            <figure class="about-banner has-shape">
+              <img src="./assets/images/about-banner.jpg" width="500"
+                height="611" loading="lazy" alt="about banner"
+                class="w-100">
+
+              <img src="./assets/images/banner-shape.svg" width="108"
+                height="86" loading="lazy" alt class="shape">
+            </figure>
+
+            <div class="about-content">
+
+              <h2 class="h2 section-title">
+                We've been helping <span class="span">customers</span> all over
+                Nepal.
+              </h2>
+
+              <p class="section-text">
+                Sky Tree Solution, A Web Design Agency offering graphic design,
+                web design, digital marketing, and outdoor branding services.
+                Captivate your audience with attractive designs, establish a
+                strong online presence, expand market reach efficiently, and
+                create impactful brand materials. Join us for a long-term
+                partnership to benefit your business.
+              </p>
+
+              <a href="#" class="btn btn-outline">Contact us now</a>
+
+            </div>
+
+          </div>
+        </section>
+
+        <!-- 
+        - #PROJECT
+      -->
+
+        <section class="section project" aria-label="project">
+          <div class="container">
+
+            <div class="title-wrapper">
+
+              <div>
+                <h2 class="h2 section-title">
+                  Our <span class="span">Achievements</span>.
+                </h2>
+
+                <p class="section-text">
+                  Aliquam tristique libero at dui sodales, et placerat orci
+                  lobortis. Donec metus lorem, vulputate at
+                  sapien sit amet,
+                  auctor iaculis lorem.
+                </p>
+              </div>
+
+              <!-- <a href="#" class="btn-link">
+                <span class="span">Show More Projects</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a> -->
+
+            </div>
+
+            <!-- span-achievements -->
+            <table>
+              <tr class="number">
+                <td>139</td>
+                <!-- <td>10+</td> -->
+              </tr>
+              <tr class="text">
+                <td>Project completed</td>
+                <!-- <td>Years of Experience</td> -->
+              </tr>
+              <tr>
+                <td>-</td>
+                <td>-</td>
+              </tr>
+              <tr class="number">
+                <td>55+</td>
+                <td>100+</td>
+              </tr>
+              <tr class="text">
+                <td>Happy Client</td>
+                <td>Monthly Graphic Design</td>
+              </tr>
+            </table>
+            <!-- span-achievements -->
+            <!-- span-achievements-text -->
+
+            <!-- <ul class="project-list">
+
+              <li>
+                <div class="project-card">
+
+                  <figure class="card-banner img-holder"
+                    style="--width: 615; --height: 391;">
+                    <img src="./assets/images/project-1.png" width="615"
+                      height="391" loading="lazy"
+                      alt="Plastic Credit Card" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="card-title hover:underline">Plastic
+                          Credit Card</a>
+                      </h3>
+
+                      <p class="card-tag">Identity, Mockup</p>
+                    </div>
+
+                    <a href="#" class="card-link" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="project-card">
+
+                  <figure class="card-banner img-holder"
+                    style="--width: 615; --height: 391;">
+                    <img src="./assets/images/project-2.png" width="615"
+                      height="391" loading="lazy" alt="3D Illustration"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="card-title hover:underline">3D
+                          Illustration</a>
+                      </h3>
+
+                      <p class="card-tag">Development, Mobile App</p>
+                    </div>
+
+                    <a href="#" class="card-link" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="project-card">
+
+                  <figure class="card-banner img-holder"
+                    style="--width: 390; --height: 391;">
+                    <img src="./assets/images/project-3.png" width="390"
+                      height="391" loading="lazy"
+                      alt="Statistics Mobile App" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="card-title hover:underline">Statistics
+                          Mobile App</a>
+                      </h3>
+
+                      <p class="card-tag">Development, Mobile App</p>
+                    </div>
+
+                    <a href="#" class="card-link" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="project-card">
+
+                  <figure class="card-banner img-holder"
+                    style="--width: 390; --height: 391;">
+                    <img src="./assets/images/project-4.png" width="390"
+                      height="391" loading="lazy"
+                      alt="Color Blending Effect" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="card-title hover:underline">Color
+                          Blending Effect</a>
+                      </h3>
+
+                      <p class="card-tag">Design, Graphics</p>
+                    </div>
+
+                    <a href="#" class="card-link" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="project-card">
+
+                  <figure class="card-banner img-holder"
+                    style="--width: 390; --height: 391;">
+                    <img src="./assets/images/project-5.png" width="390"
+                      height="391" loading="lazy" alt="3D Animation"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+                    <div>
+                      <h3 class="h3">
+                        <a href="#" class="card-title hover:underline">3D
+                          Animation</a>
+                      </h3>
+
+                      <p class="card-tag">Design, Dimension</p>
+                    </div>
+
+                    <a href="#" class="card-link" aria-label="product details">
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul> -->
+
+          </div>
+        </section>
+
+        <!-- 
+        - #BLOG
+      -->
+
+        <section class="section blog" id="blog" aria-label="blog">
+          <div class="container">
+
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">
+                Our Respected <span class="span">Clients</span>.
+              </h2>
+
+              <a href="#" class="btn-link">
+                <!-- <span class="span">Check Our All News</span> -->
+
+                <!-- <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon> -->
+              </a>
+            </div>
+
+            <ul class="grid-list">
+              <!-- 1 -->
+              <li>
+                <div class="blog-card">
+
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client1.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">Lotus Academy</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18"
+                          height="18" loading="lazy" alt="Alice Williams"
+                          class="author-img">
+
+                        <p class="meta-item-text">Alice Williams</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <!--2  -->
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client2.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">Ganapati Engineering</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18"
+                          height="18" loading="lazy" alt="Alice Williams"
+                          class="author-img">
+
+                        <p class="meta-item-text">Alice Williams</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <!-- 3 -->
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client3.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">Remote Himalayan</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18"
+                          height="18" loading="lazy" alt="Alice Williams"
+                          class="author-img">
+
+                        <p class="meta-item-text">Alice Williams</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <!-- 4 -->
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client4.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">Premium Growth</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18"
+                          height="18" loading="lazy" alt="Alice Williams"
+                          class="author-img">
+
+                        <p class="meta-item-text">Alice Williams</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <!-- 5 -->
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client5.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">Oxford Academia</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18"
+                          height="18" loading="lazy" alt="Alice Williams"
+                          class="author-img">
+
+                        <p class="meta-item-text">Alice Williams</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <!-- 6 -->
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client6.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">Angels Consultancy</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18"
+                          height="18" loading="lazy" alt="Alice Williams"
+                          class="author-img">
+
+                        <p class="meta-item-text">Alice Williams</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+              <li>
+                <div class="blog-card">
+                  <!-- 7 -->
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client7.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">Best Cookies</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18"
+                          height="18" loading="lazy" alt="Alice Williams"
+                          class="author-img">
+
+                        <p class="meta-item-text">Alice Williams</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+              <!--8  -->
+              <li>
+                <div class="blog-card">
+
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client8.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">8848 Restaurant and Bar</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-2.png" width="18"
+                          height="18" loading="lazy" alt="Jaxson Geldit"
+                          class="author-img">
+
+                        <p class="meta-item-text">Jaxson Geldit</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+
+              <li>
+                <div class="blog-card">
+                  <!-- 9 -->
+                  <div class="card-banner img-holder"
+                    style="--width: 595; --height: 391;">
+                    <img src="./assets/images/client9.jpg" width="595"
+                      height="391" loading="lazy"
+                      alt="Designer's Checklist for Every UX Project."
+                      class="img-cover">
+
+                    <button class="card-tag">Chautari Mart</button>
+                  </div>
+
+                  <!-- <div class="card-content">
+
+                    <ul class="meta-list">
+
+                      <li class="meta-item">
+                        <img src="./assets/images/author-1.png" width="18"
+                          height="18" loading="lazy" alt="Cooper Saris"
+                          class="author-img">
+
+                        <p class="meta-item-text">Cooper Saris</p>
+                      </li>
+
+                      <li class="meta-item">
+                        <ion-icon name="calendar-clear-outline"
+                          aria-hidden="true"></ion-icon>
+
+                        <time datetime="2022-12-20" class="meta-item-text">December
+                          20, 2022</time>
+                      </li>
+
+                    </ul>
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title hover:underline">
+                        Designer's Checklist for Every UX Project.
+                      </a>
+                    </h3>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read more</span>
+
+                      <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+
+                  </div> -->
+
+                </div>
+              </li>
+              <h1 class="h1 section-title">&&nbsp;More...</h1>
+
+            </ul>
+
+          </div>
+        </section>
+
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container">
+
+        <div class="footer-top section">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png.png" width="209" height="52"
+                alt="stes logo">
+            </a>
+            <b>Contact Details</b>
+            <a href="mailto:info@stes.com.np" class="footer-link">info@stes.com.np</a>
+            <a href="mailto:info@stes.com.np" class="footer-link">skytreesolution977@gmail.com</a>
+            <a href="tel:+977-9843471099" class="footer-link">+977 -9843471099</a>
+            <p>Bharatpur 10, Hakimchowk, Chitwan, Nepal</p>
+
+            <!-- <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-dribbble"></ion-icon>
+                </a>
+              </li>
+
+            </ul> -->
+
+          </div>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4 footer-list-title">Useful Links</p>
+            </li>
+
+            <li>
+              <!-- <a href="#home" class="navbar-link" data-nav-link>Home</a> -->
+              <a href="#home" class="footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="footer-link">About Us</a>
+            </li>
+
+            <li>
+              <a href="#services" class="footer-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="h4 footer-list-title">Legal</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Terms of Service</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Refund Policy</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="h4 footer-list-title">Projects</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Web Design</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Graphic Design</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Printing Services</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Digital Marketing</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            Copyright &#169; 2022 All Rights Reserved by Sky Tree Solution.
+          </p>
+
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  </body>
+
 </html>
