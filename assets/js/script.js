@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /**
  * add event on element
  */
@@ -15,7 +13,6 @@ const addEventOnElem = function (elem, type, callback) {
     elem.addEventListener(type, callback);
   }
 }
-
 
 
 /**
@@ -60,3 +57,6 @@ const activeElemOnScroll = function () {
 }
 
 addEventOnElem(window, "scroll", activeElemOnScroll);
+
+  const currentYear = new Date().getFullYear();
+  document.getElementById("currentYear").textContent = currentYear;
