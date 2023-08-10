@@ -643,6 +643,10 @@ body.active { overflow: hidden; }
 
 }
 
+.contact-text{
+  font-size: var(--fs-4);
+}
+
 .footer-link:is(:hover, :focus) { color: var(--sefety-orange); }
 
 /* .footer-brand .footer-link:not(:last-of-type) {
