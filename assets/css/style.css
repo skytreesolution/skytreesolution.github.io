@@ -3,12 +3,8 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2022 codewithsadee
+ * 
  */
-
-
-
-
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
@@ -32,7 +28,8 @@
   --black_25: hsla(0, 0%, 0%, 0.25);
   --black_15: hsla(0, 0%, 0%, 0.15);
   --white: hsl(0, 0%, 100%);
-  --snow: hsl(345, 20%, 96%);
+  --snow: hsl(210, 38%, 95%);
+  /* --snow: hsl(345, 20%, 96%); */
 
   /**
    * typography
@@ -205,7 +202,10 @@ body.active { overflow: hidden; }
   line-height: 1;
 }
 
-.section-text { font-size: var(--fs-3); }
+.section-text { 
+  font-size: var(--fs-4);
+  text-align: justify;
+ }
 
 .btn {
   background-color: var(--bg, var(--gunmetal));
@@ -271,7 +271,10 @@ body.active { overflow: hidden; }
   gap: 30px;
 }
 
-.card-text { font-size: var(--fs-4); }
+.card-text { 
+  font-size: var(--fs-4); 
+  text-align: justify;
+}
 
 .btn-link {
   display: flex;
@@ -317,7 +320,7 @@ body.active { overflow: hidden; }
 \*-----------------------------------*/
 
 .header .btn { display: none; }
-
+.header { background-color: var(--snow); }
 .header {
   position: absolute;
   top: 0;
@@ -452,7 +455,7 @@ body.active { overflow: hidden; }
   #SERVICE
 \*-----------------------------------*/
 
-.service { background-color: var(--snow); }
+/* .service { background-color: var(--snow); } */
 
 .service .section-text { margin-block-end: 20px; }
 
@@ -498,7 +501,7 @@ body.active { overflow: hidden; }
 }
 
 .about .section-text {
-  font-size: unset;
+  --fs-3: 2.4rem;
   margin-block: 30px 40px;
 }
 
@@ -624,7 +627,7 @@ body.active { overflow: hidden; }
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
-
+.footer { background-color: var(--snow); }
 .footer { color: var(--gunmetal); }
 
 .footer-top {
@@ -666,6 +669,10 @@ body.active { overflow: hidden; }
 .copyright {
   padding-block: 35px;
   text-align: center;
+  display: flex;
+  gap: 10px;
+  align-content: center;
+  justify-content: center;
 }
 
 
@@ -790,14 +797,17 @@ body.active { overflow: hidden; }
     align-items: flex-start;
   }
 
-  .service .section-text { margin-block: 0; }
+  .service .section-text {
+     margin-block: 0;
+     
+     }
 
 
 
   /**
    * ABOUT
    */
-
+   .about { background-color: var(--snow); }
   .about .container {
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -856,7 +866,9 @@ body.active { overflow: hidden; }
 
   .h2 { --fs-1: 5.5rem; }
 
-  .section-text { --fs-3: 2.4rem; }
+  .section-text {
+     --fs-3: 2.4rem;
+     }
 
   .btn {
     --padding: 10px 32px;
