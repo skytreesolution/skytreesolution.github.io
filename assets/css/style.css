@@ -670,6 +670,7 @@ body.active { overflow: hidden; }
 
 .footer-list-title { margin-block-end: 20px; }
 
+/* Original styles */
 .copyright {
   padding-block: 35px;
   text-align: center;
@@ -678,6 +679,15 @@ body.active { overflow: hidden; }
   align-content: center;
   justify-content: center;
 }
+
+/* Responsive styles for mobile */
+@media (max-width: 767px) {
+  .copyright {
+    flex-direction: column; /* Stack elements vertically */
+    padding-block: 20px; /* Adjust padding for smaller screens */
+  }
+}
+
 
 
 
